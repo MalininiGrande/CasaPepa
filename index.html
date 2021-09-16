@@ -8,39 +8,34 @@
       content="width=
 , initial-scale=1.0"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300&display=swap" rel="stylesheet"> 
     <title>Sandra Susta Malinova - CV</title>
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <!--Hlavicka - insert photo-->
 
+
+<header class="Hlavicka">
     <h1>SANDRA SUSTA MALINOVA</h1>
     <h2>Event Manager</h2>
+  </header>
 
-    <img src="fotky/Malinová Sandra(1).jpg" alt="Foto Sandra Susta Malinova" />
-    <h3>Skills</h3>
-
-    <ul>
-      <li>Organizational/administration skills *****</li>
-      <li>Analytical skills ****</li>
-      <li>Communication skills *****</li>
-      <li>Management skills ****</li>
-      <li>Customer service *****</li>
-      <li>High personal culture *****</li>
-      <li>Reliability and responsibility *****</li>
-      <li>IT proficiency ****</li>
-      <li>
-        Resistant to stress situations, flexible to handle unexpected situations
-        *****
-      </li>
-      <li>Public speaking ****</li>
-      <li>Emotional intelligence *****</li>
-      <li>Team work ****</li>
+    <!--menu-->
+    <ul class="Menu">
+        <li><a href="#AboutMe"></a>About Me</li>
+        <li><a href="#Skills"></a>Skills</li>
+        <li><a href="#WorkExperience"></a>Work Experience</li>
+        <li><a href="#Education"></a>Education</li>
+        <li><a href="#Languages"></a>Languages</li>
+        <li><a href="#FreeTime"></a>Free Time</li>
+        <li><a href="#Contact"></a>Contact</li>
     </ul>
 
-
-
-
+ 
+  <section class="AboutMe" id="AboutMe">
+    <img class="FotoSandra" src="fotky/Malinová Sandra(1).jpg" alt="Foto Sandra Susta Malinova" />
     <h3>About Me</h3>
     <p>
       Ever since I was a kid, I have always loved to plan things. Oh, the things
@@ -73,8 +68,31 @@
       wild imagination and knowledge of many online tools and software helps my
       greatly in this effort.
     </p>
-    
 
+  </section>
+
+<section class="Skills" id="Skills">
+  <h3>Skills</h3>
+    <ul>
+      <li>Organizational/administration skills *****</li>
+      <li>Analytical skills ****</li>
+      <li>Communication skills *****</li>
+      <li>Management skills ****</li>
+      <li>Customer service *****</li>
+      <li>High personal culture *****</li>
+      <li>Reliability and responsibility *****</li>
+      <li>IT proficiency ****</li>
+      <li>
+        Resistant to stress situations, flexible to handle unexpected situations
+        *****
+      </li>
+      <li>Public speaking ****</li>
+      <li>Emotional intelligence *****</li>
+      <li>Team work ****</li>
+    </ul>
+  </section>
+
+  <section class="WorkExperience" id="WorkExperience">
     <h3>Work Experience</h3>
     <h4>Activities Associate</h4>
     <h5>International School of Prague</h5>
@@ -124,6 +142,7 @@
       finding staff and getting the staff trained up for their roles during the
       tests and overseeing the successful exam administration.
     </p>
+  
 
     <h4>Registration & Event Coordinator</h4>
     <h5>GUARANT Int.</h5>
@@ -153,27 +172,35 @@
       Organizing accommodation, tours, social events requests, communication
       with Embassies.
     </p>
+  </section>
 
+  <section class="Education" id="Education">
     <!--insert uni logos-->
     <h3>Education</h3>
-    <img
+    <img class="UK"
       src="Fotky/1200px-Charles-University-symbol-4.svg.png"
       alt="Univerzita Karlova logo logo"
     />
     <h5>Charles Univeristy Prague - Master's degree</h5>
     <h6><em>General history and theory of Arts and Culture</em></h6>
 
-    <img src="Fotky/VSE_logo_CZ_circle_blue.png" alt="VŠE logo" />
+    <img class="VSE" src="Fotky/VSE_logo_CZ_circle_blue.png" alt="VŠE logo" />
     <h5>Univeristy of Economics and Business Prague</h5>
     <h6><em>Arts Management - study interrupted</em></h6>
+  </section>
 
+
+  <section class="Languages" id="Languages">
     <h3>Languages</h3>
     <ol>
       <li>Czech - Native</li>
       <li>English – Level A2</li>
       <li>Spanish - Intermediate</li>
     </ol>
+  </section>
 
+
+  <section class="FreeTime" id="FreeTime">
     <h3>When I am not working</h3>
     <p>
       You might be asking, how I am in my personal life? Well, hoping this would
@@ -185,9 +212,11 @@
       organizing reading clubs and I am always keen on improving my cooking,
       eating or yoga skills.
     </p>
+  </section>
 
     <!--contact- insert SM-->
-    
+
+    <section class="Contact" id="Contact">
     <p>
       Email:
       <a href="mailto:sandra.malinova2@gmail.com">sandra.malinova2@gmail.com</a>
@@ -198,21 +227,28 @@
 
     <p>
       <a href="https://www.facebook.com/sandra.malinova.33/" target="blank"
-        >FACEBOOK</a
-      >
+        >Facebook</a> <br />
+
+      <a href="https://www.instagram.com/littlemissyredy/" target="blank">Instagram</a>
+      
       <br />
-      <img
-        src="Fotky/facebook-scalable-graphics-icon-facebook-logo-facebook-logo-png-clip-art.png"
+      <img class="FB"
+        src="Fotky/photos-facebook-logo-png-transparent-background-13.webp"
         alt="Facebook logo"
       />
-      <a href="https://www.instagram.com/littlemissyredy/" target="blank">IG</a>
-      <img
-        src="Fotky/png-clipart-social-media-instagram-login-graphy-ig-instagram-icon-rectangle-magenta.png"
+      <img class ="IG"
+        src="Fotky/580b57fcd9996e24bc43c521.png"
         alt="Instagram logo"
+      
       />
-    </p>
 
-    <!--footer-->
+
+    </p>
+  </section>
+
+  <footer class="Paticka">
+  <!--footer-->
     <p>© Maelk Susta 2021</p>
+  </footer>
   </body>
 </html>
