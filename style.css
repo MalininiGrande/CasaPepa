@@ -1,6 +1,11 @@
-h1 {color:white; background-color: #7F7EFF;}
-h2 {color: white; background-color: #A390E4;}
-h3 {color: #282425;background-color: #C69DD2;}
-h4 {color: white;background-color: #CC8B8C;}
-h5 {color: white; background-color: #C68866;}
-body {color: #282425;background-color: aliceblue;}
+h1 {color:white; background-color: #7F7EFF; font-size: 60px; font-family: trebuchet, sans-serif;}
+h2 {color: white; background-color: #A390E4; font-size: 40px;font-family: trebuchet;}
+h3 {color: #282425;background-color: #C69DD2;font-size: 36px;font-family:"Brush Script MT", sans-serif;}
+h4 {color: white;background-color: #CC8B8C;font-size: 22px;}
+h5 {color: white; background-color: #C68866;font-size: 22px; font-style: italic;}
+h6 {color: #282425; font-size: 18px;font-style: italic;}
+body {color: #282425;background-color: whitesmoke; font-size:16px;line-height: 1.4;font-family: Tahoma, 'Times New Roman', serif, sans-serif;}    
+li {font-weight: bold;}
+
+  
+ 
